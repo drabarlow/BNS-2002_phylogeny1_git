@@ -203,17 +203,25 @@ include_graphics("./assets/img/haekel.png")
 
 ## Phylogenetics: the study of phylogenies
 
----
+--- &twocol
 
 ## Phylogenetics 
 
+*** =left
+
 - An entire field of evolutionary biology!
 - Combines knowledge from multiple areas: 
-- evolutionary biology
-- genetics
-- mathematics
-- computer science
-- Multiple specific journals
+  - evolutionary biology
+  - genetics
+  - mathematics
+  - computer science
+  - Multiple specific journals
+
+*** =right
+
+```{r, out.width = "60%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+include_graphics("./assets/img/mpe10557903.gif")
+```
 
 --- &twocol
 
@@ -276,10 +284,10 @@ include_graphics("./assets/img/dna-1889085.jpg")
 
 - Evolutionary history of a single locus
 - (not always an actual gene)
-- Any recombining genome has multiple loci, each with its own gene tree
+- Each locus has its own gene tree
 - Easy to calculate using genetic data (often sequences)
 - Historical reliance on mitochondrial DNA
-- Gene trees may differ
+- Gene trees may differ among loci
   - **incomplete lineage sorting**
   - **admixture**
   
@@ -311,7 +319,7 @@ include_graphics("./assets/img/Gene_Loci_and_Alleles.png")
 - Not case for all:
   - lizards
   - reptiles
-  - elapids
+  - colubrids
   - toads
   - birds of prey
 
@@ -324,23 +332,6 @@ include_graphics("./assets/img/Gene_Loci_and_Alleles.png")
 --- .segue .dark 
 
 ## Using phylogenies
-
---- &twocol
-
-## Placing enigmatic taxa in the tree
-
-*** =left
-
-- Understand relationships of problematic taxa
-- Genetic methods especially useful
-- Molecular dating 
-- Recent trend for extinct species
-
-*** =right
-
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
-  include_graphics("./assets/img/praekudarensis.png")
-```
 
 --- &twocol
 
@@ -410,7 +401,15 @@ include_graphics("./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png")
 
 ## Dwarfing rate
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+include_graphics("./assets/img/dwarf1.svg")
+```
+
+--- bg:white
+
+## Dwarfing rate
+
+```{r, out.width = "50%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/dwarf.svg")
 ```
 
@@ -447,6 +446,14 @@ include_graphics("./assets/img/dwarf.svg")
   include_graphics("./assets/img/echis.svg")
 ```
 
+---
+
+## Venom evolution in saw-scaled vipers
+
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/echis2.svg")
+```
+
 --- &twocol
 
 ## Species discovery and delimitation
@@ -474,6 +481,14 @@ include_graphics("./assets/img/dwarf.svg")
 
 ```{r, out.width = "110%", out.height=500, fig.align='center', dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/hema2.svg")
+```
+
+--- bg:white
+
+## Zimbabwe rinkhals
+
+```{r, out.width = "100%", out.height=500, fig.align='left', dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/hema3.svg")
 ```
 
 ---

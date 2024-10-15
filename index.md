@@ -167,17 +167,23 @@ Credit: Dr. Matthew Bonnan
 
 ## Phylogenetics: the study of phylogenies
 
----
+--- &twocol
 
 ## Phylogenetics 
 
+*** =left
+
 - An entire field of evolutionary biology!
 - Combines knowledge from multiple areas: 
-- evolutionary biology
-- genetics
-- mathematics
-- computer science
-- Multiple specific journals
+  - evolutionary biology
+  - genetics
+  - mathematics
+  - computer science
+  - Multiple specific journals
+
+*** =right
+
+<img src="./assets/img/mpe10557903.gif" width="60%" style="display: block; margin: auto;" />
 
 --- &twocol
 
@@ -234,10 +240,10 @@ Credit: Dr. Matthew Bonnan
 
 - Evolutionary history of a single locus
 - (not always an actual gene)
-- Any recombining genome has multiple loci, each with its own gene tree
+- Each locus has its own gene tree
 - Easy to calculate using genetic data (often sequences)
 - Historical reliance on mitochondrial DNA
-- Gene trees may differ
+- Gene trees may differ among loci
   - **incomplete lineage sorting**
   - **admixture**
   
@@ -265,7 +271,7 @@ Credit: Dr. Matthew Bonnan
 - Not case for all:
   - lizards
   - reptiles
-  - elapids
+  - colubrids
   - toads
   - birds of prey
 
@@ -276,21 +282,6 @@ Credit: Dr. Matthew Bonnan
 --- .segue .dark 
 
 ## Using phylogenies
-
---- &twocol
-
-## Placing enigmatic taxa in the tree
-
-*** =left
-
-- Understand relationships of problematic taxa
-- Genetic methods especially useful
-- Molecular dating 
-- Recent trend for extinct species
-
-*** =right
-
-<img src="./assets/img/praekudarensis.png" width="100%" style="display: block; margin: auto;" />
 
 --- &twocol
 
@@ -348,7 +339,13 @@ Credit: Dr. Matthew Bonnan
 
 ## Dwarfing rate
 
-<img src="./assets/img/dwarf.svg" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/dwarf1.svg" width="90%" style="display: block; margin: auto;" />
+
+--- bg:white
+
+## Dwarfing rate
+
+<img src="./assets/img/dwarf.svg" width="50%" style="display: block; margin: auto;" />
 
 ---
 
@@ -377,6 +374,12 @@ Credit: Dr. Matthew Bonnan
 
 <img src="./assets/img/echis.svg" width="100%" height="500" />
 
+---
+
+## Venom evolution in saw-scaled vipers
+
+<img src="./assets/img/echis2.svg" width="100%" height="500" />
+
 --- &twocol
 
 ## Species discovery and delimitation
@@ -401,6 +404,12 @@ Credit: Dr. Matthew Bonnan
 ## Zimbabwe rinkhals
 
 <img src="./assets/img/hema2.svg" width="110%" height="500" style="display: block; margin: auto;" />
+
+--- bg:white
+
+## Zimbabwe rinkhals
+
+<img src="./assets/img/hema3.svg" width="100%" height="500" style="display: block; margin: auto auto auto 0;" />
 
 ---
 
